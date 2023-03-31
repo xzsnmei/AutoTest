@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="获取Cookies接口测试套件">
+    <test name="测试报告">
+        <classes>
+            <class name="com.course.httpclient.cookies.MyCookiesForGet">
+                <methods>
+                    <include name="testGetCookies"/>
+                    <include name="testGetWithCookies"/>
+                </methods>
+            </class>
+            <class name="com.course.httpclient.cookies.MyCookiesForPost">
+                <include name="testPOSTWithCookies"/>
+            </class>
+        </classes>
+    </test>
+    <!--    配置监听器，监听测试报告-->
+    <listeners>
+        <!--        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.course.httpclient.cookies.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <!-- 日志文件存储位置 -->
+    <springProperty scope="context" name="logPath" source="log.file.path" defaultValue="logs"/>
+    <!-- 日志最大存活时间（天），默认30天 -->
+    <springProperty scope="context" name="maxHistory" source="log.file.maxhistory" defaultValue="30"/>
+
+
+    <appender name="debug" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 日志保存目录 -->
+        <param name="file" value="${logPath}/debugger.log"/>
+        <param name="Encoding" value="UTF-8"/>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logPath}/%d{yyyy-MM-dd,aux}/debug.%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <!-- 日志保存时间 -->
+            <maxHistory>${maxHistory}</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d [%p %t %X{ip} %X{flag} %F:%L] - %m%n</pattern>
+        </encoder>
+    </appender>
+</configuration>

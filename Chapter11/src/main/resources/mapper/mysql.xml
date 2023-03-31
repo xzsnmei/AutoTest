@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.controller.ControllerDemo">
+    <!--    parameterType:入参类型 resultType: 返回类型-->
+    <select id="getEmployeeCount" resultType="Integer">
+        select count(*)
+        from employee;
+    </select>
+    <insert id="addEmployee" parameterType="com.course.model.Employee">
+        insert into employee(emp_id, emp_no, dept_id, emp_name, emp_age, emp_salary)
+        values (#{emp_id}, #{emp_no}, #{dept_id}, #{emp_name}, #{emp_age}, #{emp_salary})
+    </insert>
+    <update id="updateEmployee" parameterType="com.course.model.Employee">
+        update employee
+        set emp_no=#{emp_no},
+            dept_id=#{dept_id},
+            emp_name=#{emp_name},
+            emp_age=#{emp_age},
+            emp_salary=#{emp_salary}
+        where emp_id = #{emp_id};
+    </update>
+    <update id="deleteEmployee" parameterType="Integer">
+        delete
+        from employee
+        where emp_id = #{emp_id};
+    </update>
+</mapper>
+
+
+

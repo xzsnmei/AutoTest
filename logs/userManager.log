@@ -1,0 +1,87 @@
+2023-03-31 12:00:14.651 [main] INFO  com.course.Application - Starting Application on LAPTOP-PSMK3TE0 with PID 17496 (D:\IdeaProjects\imooc\AutoTest\Chapter13\target\classes started by ThinkPad in D:\IdeaProjects\imooc\AutoTest)
+2023-03-31 12:00:14.655 [main] INFO  com.course.Application - The following profiles are active: dev
+2023-03-31 12:00:15.537 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2023-03-31 12:00:15.901 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-03-31 12:00:15.909 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-31 12:00:15.909 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2023-03-31 12:00:16.000 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-31 12:00:16.001 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1295 ms
+2023-03-31 12:00:16.975 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-31 12:00:17.103 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-03-31 12:00:17.167 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2023-03-31 12:00:17.603 [main] INFO  com.course.Application - Started Application in 3.273 seconds (JVM running for 5.093)
+2023-03-31 12:23:47.417 [http-nio-8899-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31 12:23:47.419 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-31 12:23:47.438 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2023-03-31 12:23:47.545 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-31 12:23:47.713 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-31 16:12:06.155 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m15s530ms397µs100ns).
+2023-03-31 16:21:45.746 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-03-31 16:21:45.749 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-31 16:21:45.753 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-31 16:21:45.759 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-31 16:21:50.489 [main] INFO  com.course.Application - Starting Application on LAPTOP-PSMK3TE0 with PID 2504 (D:\IdeaProjects\imooc\AutoTest\Chapter13\target\classes started by ThinkPad in D:\IdeaProjects\imooc\AutoTest)
+2023-03-31 16:21:50.491 [main] INFO  com.course.Application - The following profiles are active: dev
+2023-03-31 16:21:51.336 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2023-03-31 16:21:51.677 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-03-31 16:21:51.685 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-31 16:21:51.685 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2023-03-31 16:21:51.783 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-31 16:21:51.784 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1253 ms
+2023-03-31 16:21:52.469 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-31 16:21:52.593 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-03-31 16:21:52.673 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2023-03-31 16:21:52.873 [main] INFO  com.course.Application - Started Application in 2.707 seconds (JVM running for 4.57)
+2023-03-31 16:22:03.526 [http-nio-8899-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31 16:22:03.526 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-31 16:22:03.531 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-03-31 16:22:03.587 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-31 16:22:03.724 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-31 16:22:22.822 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-03-31 16:22:22.823 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-31 16:22:22.825 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-31 16:22:22.834 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-31 16:22:27.391 [main] INFO  com.course.Application - Starting Application on LAPTOP-PSMK3TE0 with PID 24000 (D:\IdeaProjects\imooc\AutoTest\Chapter13\target\classes started by ThinkPad in D:\IdeaProjects\imooc\AutoTest)
+2023-03-31 16:22:27.394 [main] INFO  com.course.Application - The following profiles are active: dev
+2023-03-31 16:22:28.175 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2023-03-31 16:22:28.486 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-03-31 16:22:28.493 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-31 16:22:28.493 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2023-03-31 16:22:28.581 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-31 16:22:28.581 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1150 ms
+2023-03-31 16:22:29.195 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-31 16:22:29.291 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-03-31 16:22:29.342 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2023-03-31 16:22:29.530 [main] INFO  com.course.Application - Started Application in 2.451 seconds (JVM running for 4.421)
+2023-03-31 16:22:37.927 [http-nio-8899-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31 16:22:37.928 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-31 16:22:37.932 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-03-31 16:22:37.988 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-31 16:22:38.124 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-31 16:23:03.787 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-03-31 16:23:03.788 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-31 16:23:03.790 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-31 16:23:03.799 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-03-31 16:23:08.175 [main] INFO  com.course.Application - Starting Application on LAPTOP-PSMK3TE0 with PID 19772 (D:\IdeaProjects\imooc\AutoTest\Chapter13\target\classes started by ThinkPad in D:\IdeaProjects\imooc\AutoTest)
+2023-03-31 16:23:08.178 [main] INFO  com.course.Application - The following profiles are active: dev
+2023-03-31 16:23:09.004 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2023-03-31 16:23:09.318 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2023-03-31 16:23:09.325 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-03-31 16:23:09.325 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2023-03-31 16:23:09.420 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-03-31 16:23:09.420 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1197 ms
+2023-03-31 16:23:10.405 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-31 16:23:10.531 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2023-03-31 16:23:10.594 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2023-03-31 16:23:10.906 [main] INFO  com.course.Application - Started Application in 3.024 seconds (JVM running for 4.797)
+2023-03-31 16:23:30.893 [http-nio-8899-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-31 16:23:30.893 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-03-31 16:23:30.900 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2023-03-31 16:23:30.961 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-03-31 16:23:31.105 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-03-31 17:08:14.258 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s444ms642?s700ns).
+2023-03-31 18:49:29.580 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m45s43ms541?s500ns).
+2023-03-31 19:04:10.319 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2023-03-31 19:04:10.350 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-31 19:04:10.367 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-03-31 19:04:10.378 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,21 @@
+server:
+  port: 8899
+# ===== logback配置信息 ===== #
+log:
+  file:
+    name: logs
+    path: /data/appLogs/miner/miner-cron-logs/  #日志目录
+    maxhistory: 30  #留存天数
+# ===== spring配置信息 ===== #
+spring:
+  application:
+    name: myTest # 自定义 application name: myTest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/course
+    username: root
+    password: 123456
+# ===== mybatis配置信息:model ===== #
+mybatis:
+  type-aliases-package: com.course.model # 映射Java Bean
+  mapper-locations: classpath:mapper/* # resource路径下文件夹：mapper

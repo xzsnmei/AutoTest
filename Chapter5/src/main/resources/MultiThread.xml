@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<suite name="thread" parallel="classs" thread-count="3">
+<suite name="thread" parallel="classes" thread-count="3">
     <!---
-    parallel=classs：classes级别，相同的class tag下的用例在同一个线程中去执行
+    parallel=classes：classes级别，相同的class tag下的用例在同一个线程中去执行
                     不同的class tag下的用例在同一个线程中去执行
     parallel=tests：tests级别，不同的test tag下的用例可以在不同的线程下执行
                     相同的test tag下的用例只能在同一个线程中去执行

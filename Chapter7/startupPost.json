@@ -1,0 +1,49 @@
+[
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个mock的post请求",
+      "headers": {
+        "Content-Type": "text/html; charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/postWithQueries",
+      "method": "post",
+      "queries": {
+        "name": "胡汉三",
+        "age": "45"
+      }
+    },
+    "response": {
+      "text": "我胡汉三带着queries参数回来了",
+      "headers": {
+        "Content-Type": "text/html; charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "模拟一个带参数的post请求",
+    "request": {
+      "uri": "/postWithForms",
+      "method": "post",
+      "forms": {
+        "name": "胡汉三",
+        "age": "45"
+      }
+    },
+    "response": {
+      "text": "我胡汉三带着forms参数回来了",
+      "headers": {
+        "Content-Type": "text/html; charset=gbk"
+      }
+    }
+  }
+]
